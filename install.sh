@@ -1,12 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # Nina's Beats - One-Click Installer
-# She runs: bash install.sh
 
 echo "♥"
 echo "♥ Setting up Nina's Beats..."
 echo "♥"
 
-# Wait a moment for dramatic effect
 sleep 1
 
 # Update and install dependencies
@@ -18,19 +16,18 @@ pkg install -y mpv python >/dev/null 2>&1
 echo "♥ Installing magic..."
 pip install rich >/dev/null 2>&1
 
-# Configure auto-start on Termux launch
-echo "♥ Setting up to start automatically..."
-cat > ~/.bashrc << 'EOF'
-# Auto-start Nina's Beats
-python ~/ninas-beats/src/main.py
+# Add simple 'beats' command
+echo "♥ Almost done..."
+cat >> ~/.bashrc << 'EOF'
 
-# After exit, normal shell
-export PS1="♥ "
+# Nina's Beats - type 'beats' to start
+alias beats="python ~/ninas-beats/src/main.py"
 EOF
 
 echo ""
-echo "✓ Done! Close Termux and reopen it..."
-echo "✓ The magic will start automatically ♥"
+echo "✓ Setup complete!"
+echo "✓ Close Termux and reopen it..."
+echo "✓ Then type: beats"
 echo ""
+echo "♥"
 sleep 2
-exec bash
