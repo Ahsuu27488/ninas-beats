@@ -16,12 +16,12 @@ pkg install -y mpv python >/dev/null 2>&1
 echo "♥ Installing magic..."
 pip install rich >/dev/null 2>&1
 
-# Add simple 'beats' command
+# Add simple 'beats' command - run as module to fix import errors
 echo "♥ Almost done..."
 cat >> ~/.bashrc << 'EOF'
 
 # Nina's Beats - type 'beats' to start
-alias beats="python ~/ninas-beats/src/main.py"
+alias beats="cd ~/ninas-beats/src && python -m ninas_beats"
 EOF
 
 echo ""
