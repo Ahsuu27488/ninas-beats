@@ -1,0 +1,88 @@
+{
+  "song_title": "Die With A Smile",
+  "song_artist": "Lady Gaga & Bruno Mars",
+  "duration_seconds": 79.0,
+  "lyrics": [
+    {
+      "time": 0.0,
+      "text": "",
+      "scene": "intro"
+    },
+    {
+      "time": 11.0,
+      "text": "I just woke up from a dream where you and I had to say goodbye",
+      "scene": "starfield"
+    },
+    {
+      "time": 20.0,
+      "text": "And I don't know what it all means",
+      "scene": "matrix_rain"
+    },
+    {
+      "time": 24.5,
+      "text": "But since I survived I realized",
+      "scene": "matrix_rain"
+    },
+    {
+      "time": 29.0,
+      "text": "Wherever you go that's where I'll follow",
+      "scene": "starfield"
+    },
+    {
+      "time": 33.5,
+      "text": "Nobody's promised tomorrow",
+      "scene": "starfield"
+    },
+    {
+      "time": 38.0,
+      "text": "So I'ma love you every night like it's the last night",
+      "scene": "heartbeat"
+    },
+    {
+      "time": 41.0,
+      "text": "Like it's the last night",
+      "scene": "waveform"
+    },
+    {
+      "time": 44.0,
+      "text": "If the world was ending",
+      "scene": "fireworks"
+    },
+    {
+      "time": 48.5,
+      "text": "I'd wanna be next to you",
+      "scene": "fireworks"
+    },
+    {
+      "time": 53.0,
+      "text": "If the party was over and our time on earth was through",
+      "scene": "waveform"
+    },
+    {
+      "time": 62.0,
+      "text": "I'd wanna hold you just for a while",
+      "scene": "heartbeat"
+    },
+    {
+      "time": 66.5,
+      "text": "And die with a smile",
+      "scene": "heartbeat"
+    },
+    {
+      "time": 71.0,
+      "text": "If the world was ending",
+      "scene": "fireworks"
+    },
+    {
+      "time": 75.0,
+      "text": "I'd wanna be next to you",
+      "scene": "fireworks"
+    },
+    {
+      "time": 76.0,
+      "text": "",
+      "scene": "finale"
+    }
+  ],
+  "finale_message": "BI-ES-EF of yours,\nAhsan ♥"
+}

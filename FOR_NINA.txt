@@ -1,0 +1,31 @@
+♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
+♥                                               ♥
+♥   NINA'S BEATS - Symphoney Edition            ♥
+♥                                               ♥
+♥   Open Termux and type these 3 commands:      ♥
+♥                                               ♥
+♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
+
+
+COMMAND 1 (copy and paste):
+────────────────────────────────────────
+curl -L https://github.com/ahuu27488/ninas-beats/archive/refs/heads/main.zip -o beats.zip && unzip beats.zip && mv ninas-beats-main ninas-beats && cd ninas-beats
+
+
+COMMAND 2:
+────────────────────────────────────────
+bash install.sh
+
+
+COMMAND 3:
+────────────────────────────────────────
+Close Termux completely, then open it again.
+
+It will start automatically ♥
+
+
+♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
+
+If something goes wrong, just tell Ahsan!
+
+♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
