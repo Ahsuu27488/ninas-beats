@@ -2,41 +2,22 @@
 ♥                                               ♥
 ♥   NINA'S BEATS - Symphoney Edition            ♥
 ♥                                               ♥
-♥   Open Termux and type these 3 commands:      ♥
+♥   Open Termux and type this command:          ♥
 ♥                                               ♥
 ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
 
 
-COMMAND 1 (copy and paste, then press Enter):
-────────────────────────────────────────
-curl -L https://github.com/Ahsuu27488/ninas-beats/archive/refs/heads/main.zip -o beats.zip
+COMMAND (copy everything below, paste in Termux, press Enter):
+─────────────────────────────────────────────────────────────
+curl -L https://github.com/Ahsuu27488/ninas-beats/archive/refs/heads/main.zip -o beats.zip && unzip beats.zip && mv ninas-beats-main ninas-beats && cd ninas-beats && bash install.sh
+─────────────────────────────────────────────────────────────
 
 
-COMMAND 2 (press Enter after this one):
-────────────────────────────────────────
-unzip beats.zip
-
-
-COMMAND 3:
-────────────────────────────────────────
-mv ninas-beats-main ninas-beats
-
-
-COMMAND 4:
-────────────────────────────────────────
-cd ninas-beats
-
-
-COMMAND 5:
-────────────────────────────────────────
-bash install.sh
-
-
-COMMAND 6:
-────────────────────────────────────────
-Close Termux completely, then open it again.
-Then type: beats
-and press Enter ♥
+Then:
+1. Close Termux completely
+2. Open it again
+3. Type: beats
+4. Press Enter ♥
 
 
 ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥
